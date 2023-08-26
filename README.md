@@ -6,8 +6,8 @@ This is a React application that utilizes the Rick and Morty API to display info
 
 To install and run the app locally, please follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/rick-and-morty-app.git`
-2. Navigate to the project directory: `cd rick-and-morty-app`
+1. Clone the repository: `git clone https://github.com/your-username/rickandmorty-gql.git`
+2. Navigate to the project directory: `cd rickandmorty-gql`
 3. Install the dependencies: `yarn install`
 
 ## Usage
