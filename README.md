@@ -1,27 +1,43 @@
-# React + TypeScript + Vite
+# Rick and Morty App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React application that utilizes the Rick and Morty API to display information about the characters from the show.
 
-Currently, two official plugins are available:
+## Installation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To install and run the app locally, please follow these steps:
 
-## Expanding the ESLint configuration
+1. Clone the repository: `git clone https://github.com/your-username/rick-and-morty-app.git`
+2. Navigate to the project directory: `cd rick-and-morty-app`
+3. Install the dependencies: `yarn install`
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Usage
 
-- Configure the top-level `parserOptions` property like this:
+To start the application, run the following command:
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+yarn start
+
+
+This will start the development server and open the app in your default browser. You can then browse the characters and their details.
+
+## Configuration
+
+The app uses the Rick and Morty API to fetch data. If you want to modify the API endpoint or any other configuration, you can do so in the `src/config.js` file.
+
+## Dependencies
+
+The app relies on the following dependencies:
+
+- React: JavaScript library for building user interfaces.
+- TypeScript: A typed superset of JavaScript that compiles to plain JavaScript.
+- MUI (Material-UI): A popular React UI framework for building responsive and visually appealing applications.
+
+Make sure you have these dependencies installed before running the app.
+
+## Contributing
+
+If you would like to contribute to this project, please follow the guidelines in the CONTRIBUTING.md file.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for more details.
