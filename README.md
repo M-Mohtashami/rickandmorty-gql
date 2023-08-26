@@ -14,9 +14,10 @@ To install and run the app locally, please follow these steps:
 
 To start the application, run the following command:
 
-
 Develope Mode: yarn run dev.
+
 Build Project: yarn run Build.
+
 Preview Builded Version: yarn run preview
 
 
