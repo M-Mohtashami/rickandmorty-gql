@@ -15,7 +15,9 @@ To install and run the app locally, please follow these steps:
 To start the application, run the following command:
 
 
-yarn start
+Develope Mode: yarn run dev.
+Build Project: yarn run Build.
+Preview Builded Version: yarn run preview
 
 
 This will start the development server and open the app in your default browser. You can then browse the characters and their details.
